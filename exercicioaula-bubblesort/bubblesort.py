@@ -42,3 +42,6 @@ vetor = [20, 30, 90, 45, 10, 6, 8, 40, 25, 36, 98, 102, 360, 1]
 bubble = BubbleSort()
 resultado = bubble.ordenaDecrescente(vetor)
 print(vetor)
+
+# visualgo.net 
+# using site in class for view code in run
