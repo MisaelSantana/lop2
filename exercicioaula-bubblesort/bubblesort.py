@@ -14,15 +14,7 @@ class BubbleSort:
                     vetor[i+1] = temp
             elementos = elementos - 1
             
-# -----------------------
-vetor = [20, 30, 90, 45, 10, 6, 8, 40, 25, 36, 98, 102, 360, 1]
-bubble = BubbleSort()
-resultado = bubble.ordenaCrescente(vetor)
-print(vetor)
 
-
-class BubbleSort:
-    
     def ordenaDecrescente (self, vetor):
         trocado = True
         elementos = len(vetor) -1
@@ -36,12 +28,14 @@ class BubbleSort:
                     vetor[i] = vetor[i+1]
                     vetor[i+1] = temp
             elementos = elementos - 1
+
             
 # -----------------------
 vetor = [20, 30, 90, 45, 10, 6, 8, 40, 25, 36, 98, 102, 360, 1]
 bubble = BubbleSort()
-resultado = bubble.ordenaDecrescente(vetor)
+bubble.ordenaCrescente(vetor)
 print(vetor)
+
 
 # visualgo.net 
 # using site in class for view code in run
